@@ -1,0 +1,20 @@
+.menu-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  padding: 0 2rem;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #f0f0f0;
+}
